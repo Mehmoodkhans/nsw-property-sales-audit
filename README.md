@@ -10,8 +10,7 @@
 The first version of this project looked finished: a SQL pipeline, 23 charts, a case study and a headline model score. When I went back to the raw government archive to check it, several of its foundations did not hold. This repository documents the rebuild: what was wrong, how it was found, what replaced it, and what the corrected model can and cannot do.
 
 > **Start here.**
-> - **Report (23 pages):** [`report/Ten_Years_of_NSW_Property_Sales.pdf`](report/Ten_Years_of_NSW_Property_Sales.pdf)
-> - **Presentation:** [`presentation/`](presentation/)
+> -> - **Presentation (23 pages):** [`presentation/Ten_Years_of_NSW_Property_Sales.pdf`](presentation/Ten_Years_of_NSW_Property_Sales.pdf)
 > - **Status:** the analysis and models described here are complete. An interactive map app is planned. The earlier SQL version is kept for the record in [`archive/`](archive/) and is **superseded**; see [`archive/README.md`](archive/README.md) for why it should not be used for results.
 
 ---
@@ -183,9 +182,8 @@ Nothing is deleted from the cleaned data; these are scope flags. Only the start 
 
 ```
 README.md                  this file
-report/
-  Ten_Years_of_NSW_Property_Sales.pdf   the 23-page report
-presentation/              the final presentation
+presentation/
+  Ten_Years_of_NSW_Property_Sales.pdf   the 23-page illustrated presentation
 docs/
   data_provenance.md       where the data comes from, what it can and cannot tell you
   pipeline_architecture.md the design, the rules and the evidence behind each decision
